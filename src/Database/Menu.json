@@ -1,0 +1,194 @@
+[
+    {
+        "id": "a1f4c2",
+        "name": "Spring Rolls",
+        "price": 120,
+        "category": "Starters"
+    },
+    {
+        "id": "b3d5e7",
+        "name": "Paneer Tikka",
+        "price": 180,
+        "category": "Starters"
+    },
+    {
+        "id": "c9e8f2",
+        "name": "Tomato Soup",
+        "price": 90,
+        "category": "Starters"
+    },
+    {
+        "id": "d7b6a1",
+        "name": "Veg Manchurian",
+        "price": 140,
+        "category": "Starters"
+    },
+    {
+        "id": "e2c7d3",
+        "name": "French Fries",
+        "price": 100,
+        "category": "Starters"
+    },
+    {
+        "id": "f4d8e9",
+        "name": "Chilli Paneer",
+        "price": 160,
+        "category": "Starters"
+    },
+    {
+        "id": "g5f1a2",
+        "name": "Crispy Corn",
+        "price": 110,
+        "category": "Starters"
+    },
+    {
+        "id": "h6e3c4",
+        "name": "Aloo Tikki",
+        "price": 80,
+        "category": "Starters"
+    },
+    {
+        "id": "i7b2f5",
+        "name": "Butter Chicken",
+        "price": 420,
+        "category": "Main Course"
+    },
+    {
+        "id": "j8c9d6",
+        "name": "Dal Tadka",
+        "price": 180,
+        "category": "Main Course"
+    },
+    {
+        "id": "k1f7a3",
+        "name": "Rajma Chawal",
+        "price": 170,
+        "category": "Main Course"
+    },
+    {
+        "id": "l9d5e2",
+        "name": "Chole Bhature",
+        "price": 150,
+        "category": "Main Course"
+    },
+    {
+        "id": "m2f8b4",
+        "name": "Jeera Rice",
+        "price": 120,
+        "category": "Main Course"
+    },
+    {
+        "id": "n4e7d5",
+        "name": "Malai Kofta",
+        "price": 230,
+        "category": "Main Course"
+    },
+    {
+        "id": "o6f3a9",
+        "name": "Aloo Paratha",
+        "price": 170,
+        "category": "Main Course"
+    },
+    {
+        "id": "p7c2e8",
+        "name": "Oreo Shake",
+        "price": 120,
+        "category": "Drinks"
+    },
+    {
+        "id": "q1f9b6",
+        "name": "Masala Chai",
+        "price": 30,
+        "category": "Drinks"
+    },
+    {
+        "id": "r3d7e2",
+        "name": "Orange Juice",
+        "price": 50,
+        "category": "Drinks"
+    },
+    {
+        "id": "s5f4a1",
+        "name": "Cold Coffee",
+        "price": 80,
+        "category": "Drinks"
+    },
+    {
+        "id": "t2e9c3",
+        "name": "Coca Cola",
+        "price": 40,
+        "category": "Drinks"
+    },
+    {
+        "id": "u8f6b2",
+        "name": "Sweet Lassi",
+        "price": 70,
+        "category": "Drinks"
+    },
+    {
+        "id": "v9c3d5",
+        "name": "Iced Tea",
+        "price": 90,
+        "category": "Drinks"
+    },
+    {
+        "id": "w1f7e4",
+        "name": "Buttermilk",
+        "price": 50,
+        "category": "Drinks"
+    },
+    {
+        "id": "x3d9a6",
+        "name": "Water Bottle",
+        "price": 20,
+        "category": "Drinks"
+    },
+    {
+        "id": "y5f8b2",
+        "name": "Gulab Jamun",
+        "price": 70,
+        "category": "Desserts"
+    },
+    {
+        "id": "z7c1d3",
+        "name": "Rasgulla",
+        "price": 60,
+        "category": "Desserts"
+    },
+    {
+        "id": "a2e5f9",
+        "name": "Vanilla Ice Cream",
+        "price": 60,
+        "category": "Desserts"
+    },
+    {
+        "id": "b4d7c1",
+        "name": "Chocolate Brownie",
+        "price": 120,
+        "category": "Desserts"
+    },
+    {
+        "id": "c6f9e2",
+        "name": "Cheesecake",
+        "price": 130,
+        "category": "Desserts"
+    },
+    {
+        "id": "d8b2f4",
+        "name": "Kesar Pista Kulfi",
+        "price": 90,
+        "category": "Desserts"
+    },
+    {
+        "id": "e1c7d6",
+        "name": "Pancake",
+        "price": 70,
+        "category": "Desserts"
+    },
+    {
+        "id": "f3e8b5",
+        "name": "Cookies",
+        "price": 60,
+        "category": "Desserts"
+    }
+]

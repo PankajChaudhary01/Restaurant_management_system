@@ -1,0 +1,285 @@
+import json
+import uuid
+def admin_menu():
+    while True:
+        print("\n--- Admin Management ---")
+        print("1. View Full Menu")
+        print("2. Add Item")
+        print("3. Remove Item")
+        print("4. Update Item")
+        print("5. View Reports")
+        print("6. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            view_menu()
+        elif choice == "2":
+            add_item()
+        elif choice == "3":
+            remove_item()
+        elif choice == "4":
+            update_item()
+        elif choice == "5":
+            view_reports()
+        elif choice == "6":
+            print("Exiting Admin Menu...")
+            break
+        else:
+            print("Please enter a number between 1 to 6.")
+
+
+def view_menu():
+    try:
+        with open("src/Database/Menu.json", "r") as file:
+            menu = json.load(file)
+    except FileNotFoundError:
+        print("Menu file not found.")
+        return
+    except json.JSONDecodeError:
+        print("Menu file is empty or broken.")
+        return
+
+    if len(menu) == 0:
+        print("Menu is empty right now.")
+    else:
+        print("\n--- Full Menu ---")
+        categories = {
+            "Starters": [],
+            "Main Course": [],
+            "Drinks": [],
+            "Desserts": []
+        }
+
+        for item in menu:
+            category = item.get("category", "Main Course")
+            if category not in categories:
+                category = "Main Course"
+            categories[category].append(item)
+
+        for cat, items in categories.items():
+            if items:
+                print(f"\n{cat}:")
+                for i in range(len(items)):
+                    print(f"  {i+1}. {items[i]['name']} - ₹{items[i]['price']}")
+
+
+def add_item():
+    name = input("Enter item name: ")
+    price = input("Enter item price: ")
+
+    print("\nChoose category:")
+    print("1. Starters")
+    print("2. Main Course")
+    print("3. Drinks")
+    print("4. Desserts")
+    choice = input("Enter category number (1-4): ")
+
+    if choice == "1":
+        category = "Starters"
+    elif choice == "2":
+        category = "Main Course"
+    elif choice == "3":
+        category = "Drinks"
+    elif choice == "4":
+        category = "Desserts"
+    else:
+        print("Invalid choice! Defaulting to 'Main Course'")
+        category = "Main Course"
+
+    new_item = {"id":str(uuid.uuid4())[:6],"name": name, "price": int(price), "category": category}
+
+    try:
+        with open("src/Database/Menu.json", "r") as file:
+            menu = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        menu = []
+
+    menu.append(new_item)
+    with open("src/Database/Menu.json", "w") as file:
+        json.dump(menu, file, indent=4)
+
+    print(f"Item '{name}' added under '{category}' category.")
+
+
+def remove_item():
+    try:
+        with open("src/Database/Menu.json", "r") as file:
+            menu = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("Menu not found.")
+        return
+
+    if not menu:
+        print("Menu is empty.")
+        return
+
+    categories = {
+        "Starters": [],
+        "Main Course": [],
+        "Drinks": [],
+        "Desserts": []
+    }
+    category_indexes = {
+        "Starters": [],
+        "Main Course": [],
+        "Drinks": [],
+        "Desserts": []
+    }
+
+    for index, item in enumerate(menu):
+        category = item.get("category", "Main Course")
+        if category not in categories:
+            category = "Main Course"
+        categories[category].append(item)
+        category_indexes[category].append(index)
+
+    print("\nChoose category to remove from:")
+    print("1. Starters")
+    print("2. Main Course")
+    print("3. Drinks")
+    print("4. Desserts")
+    cat_choice = input("Enter category number (1-4): ")
+
+    if cat_choice == "1":
+        selected_cat = "Starters"
+    elif cat_choice == "2":
+        selected_cat = "Main Course"
+    elif cat_choice == "3":
+        selected_cat = "Drinks"
+    elif cat_choice == "4":
+        selected_cat = "Desserts"
+    else:
+        print("Invalid category choice.")
+        return
+
+    items_in_cat = categories[selected_cat]
+    indexes_in_cat = category_indexes[selected_cat]
+
+    if not items_in_cat:
+        print(f"No items found in {selected_cat}.")
+        return
+
+    print(f"\n--- {selected_cat} ---")
+    for i in range(len(items_in_cat)):
+        print(f"{i+1}. {items_in_cat[i]['name']} - ₹{items_in_cat[i]['price']}")
+
+    try:
+        num = int(input("Enter item number to remove: ")) - 1
+        if 0 <= num < len(items_in_cat):
+            original_index = indexes_in_cat[num]
+            removed_item = menu.pop(original_index)
+
+            with open("src/Database/Menu.json", "w") as file:
+                json.dump(menu, file, indent=4)
+
+            print(f"Removed '{removed_item['name']}' from {selected_cat}.")
+        else:
+            print("Invalid item number.")
+    except ValueError:
+        print("Enter a valid number.")
+
+
+def update_item():
+    try:
+        with open("src/Database/Menu.json", "r") as file:
+            menu = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("Menu not found.")
+        return
+
+    if not menu:
+        print("Menu is empty.")
+        return
+
+    categories = {
+        "Starters": [],
+        "Main Course": [],
+        "Drinks": [],
+        "Desserts": []
+    }
+    category_indexes = {
+        "Starters": [],
+        "Main Course": [],
+        "Drinks": [],
+        "Desserts": []
+    }
+
+    for index, item in enumerate(menu):
+        category = item.get("category", "Main Course")
+        if category not in categories:
+            category = "Main Course"
+        categories[category].append(item)
+        category_indexes[category].append(index)
+
+    print("\nChoose category to update from:")
+    print("1. Starters")
+    print("2. Main Course")
+    print("3. Drinks")
+    print("4. Desserts")
+    cat_choice = input("Enter category number (1-4): ")
+
+    if cat_choice == "1":
+        selected_cat = "Starters"
+    elif cat_choice == "2":
+        selected_cat = "Main Course"
+    elif cat_choice == "3":
+        selected_cat = "Drinks"
+    elif cat_choice == "4":
+        selected_cat = "Desserts"
+    else:
+        print("Invalid category choice.")
+        return
+
+    items_in_cat = categories[selected_cat]
+    indexes_in_cat = category_indexes[selected_cat]
+
+    if not items_in_cat:
+        print(f"No items found in {selected_cat}.")
+        return
+
+    print(f"\n--- {selected_cat} ---")
+    for i in range(len(items_in_cat)):
+        print(f"{i+1}. {items_in_cat[i]['name']} - ₹{items_in_cat[i]['price']}")
+
+    try:
+        num = int(input("Enter item number to update: ")) - 1
+        if 0 <= num < len(items_in_cat):
+            original_index = indexes_in_cat[num]
+
+            new_name = input("Enter new name (leave blank to keep same): ")
+            new_price = input("Enter new price (leave blank to keep same): ")
+
+            print("\nChoose new category (leave blank to keep same):")
+            print("1. Starters")
+            print("2. Main Course")
+            print("3. Drinks")
+            print("4. Desserts")
+            new_cat_choice = input("Enter category number or press Enter: ")
+
+            if new_name:
+                menu[original_index]['name'] = new_name
+            if new_price:
+                menu[original_index]['price'] = int(new_price)
+            if new_cat_choice == "1":
+                menu[original_index]['category'] = "Starters"
+            elif new_cat_choice == "2":
+                menu[original_index]['category'] = "Main Course"
+            elif new_cat_choice == "3":
+                menu[original_index]['category'] = "Drinks"
+            elif new_cat_choice == "4":
+                menu[original_index]['category'] = "Desserts"
+
+            with open("src/Database/Menu.json", "w") as file:
+                json.dump(menu, file, indent=4)
+
+            print("Item updated successfully.")
+        else:
+            print("Invalid item number.")
+    except ValueError:
+        print("Enter valid input.")
+
+
+def view_reports():
+    print("\n--- Report Section ---")
+    print("Reports will be added later (like sales or top items).")

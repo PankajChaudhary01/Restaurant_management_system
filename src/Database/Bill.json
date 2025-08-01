@@ -1,0 +1,159 @@
+[
+    {
+        "invoice_id": "2cd0d376",
+        "order_id": "b94d1635",
+        "date": "2025-07-31 10:40:02",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 2,
+                "total_price": 120
+            },
+            {
+                "name": "Pancake",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 5,
+                "total_price": 350
+            }
+        ],
+        "subtotal": 470,
+        "tax": 23.5,
+        "discount": 0,
+        "total_amount": 493.5,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "7939ca18",
+        "order_id": "42470a87",
+        "date": "2025-07-31 12:20:41",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 2,
+                "total_price": 120
+            },
+            {
+                "name": "Water Bottle",
+                "category": "Drinks",
+                "price": 20,
+                "quantity": 2,
+                "total_price": 40
+            }
+        ],
+        "subtotal": 160,
+        "tax": 8.0,
+        "discount": 0,
+        "total_amount": 168.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "e8324012",
+        "order_id": "c947fcb3",
+        "date": "2025-07-31 12:21:19",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Pancake",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 2,
+                "total_price": 140
+            }
+        ],
+        "subtotal": 200,
+        "tax": 10.0,
+        "discount": 0,
+        "total_amount": 210.0,
+        "payment_method": "UPI",
+        "payment_details": {
+            "upi_id": "qwdwwqdw"
+        }
+    },
+    {
+        "invoice_id": "32bbdebb",
+        "order_id": "1c5121fd",
+        "date": "2025-07-31 16:45:03",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Gulab Jamun",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 2,
+                "total_price": 140
+            }
+        ],
+        "subtotal": 200,
+        "tax": 10.0,
+        "discount": 0,
+        "total_amount": 210.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "a982303f",
+        "order_id": "b86501d3",
+        "date": "2025-07-31 16:53:07",
+        "items": [
+            {
+                "name": "Rasgulla",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 5,
+                "total_price": 300
+            }
+        ],
+        "subtotal": 300,
+        "tax": 15.0,
+        "discount": 0,
+        "total_amount": 315.0,
+        "payment_method": "UPI",
+        "payment_details": {
+            "upi_id": "pankaj123@ibl"
+        }
+    },
+    {
+        "invoice_id": "eff4e5c8",
+        "order_id": "7a8459cd",
+        "date": "2025-07-31 16:53:40",
+        "items": [
+            {
+                "name": "Pancake",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 4,
+                "total_price": 280
+            }
+        ],
+        "subtotal": 280,
+        "tax": 14.0,
+        "discount": 0,
+        "total_amount": 294.0,
+        "payment_method": "Credit Card",
+        "payment_details": {
+            "card_name": "12344545677",
+            "card_number": "1243434",
+            "expiry_date": "31/12",
+            "cvv": "123"
+        }
+    }
+]
