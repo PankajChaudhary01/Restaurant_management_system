@@ -87,7 +87,7 @@ class Bills:
         print("Payment successful ")
         print("Thank you for dining with us!\n")
 
-        # Now display the invoice after payment
+        # here i am displaying payment after ordering
         self._display_invoice_details(invoice_id, order_details)
 
         invoice_data = {

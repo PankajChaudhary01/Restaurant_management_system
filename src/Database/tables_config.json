@@ -1,0 +1,14 @@
+[
+    {
+        "table_no": 1,
+        "total_seats": 4
+    },
+    {
+        "table_no": 2,
+        "total_seats": 2
+    },
+    {
+        "table_no": 3,
+        "total_seats": 6
+    }
+]

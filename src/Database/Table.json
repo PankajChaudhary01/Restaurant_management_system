@@ -1,0 +1,16 @@
+[
+    {
+        "booking_id": "43a638",
+        "date": "2025-08-01",
+        "time": "16:03",
+        "table_no": 1,
+        "seats_booked": 3
+    },
+    {
+        "booking_id": "1d4d0c",
+        "date": "2025-08-01",
+        "time": "16:11",
+        "table_no": 1,
+        "seats_booked": 2
+    }
+]

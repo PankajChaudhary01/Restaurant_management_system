@@ -155,5 +155,363 @@
             "expiry_date": "31/12",
             "cvv": "123"
         }
+    },
+    {
+        "invoice_id": "50020db0",
+        "order_id": "56591e9e",
+        "date": "2025-08-01 10:00:21",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "739adf0b",
+        "order_id": "f7a5cb11",
+        "date": "2025-08-01 10:29:46",
+        "items": [
+            {
+                "name": "Pancake",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 3,
+                "total_price": 210
+            },
+            {
+                "name": "Pancake",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 1,
+                "total_price": 70
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 2,
+                "total_price": 120
+            },
+            {
+                "name": "Water Bottle",
+                "category": "Drinks",
+                "price": 20,
+                "quantity": 1,
+                "total_price": 20
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 480,
+        "tax": 24.0,
+        "discount": 0,
+        "total_amount": 504.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "0de51727",
+        "order_id": "c24beaad",
+        "date": "2025-08-01 10:31:33",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "a75c3d5c",
+        "order_id": "79af5a43",
+        "date": "2025-08-01 14:48:59",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "b16e9ee9",
+        "order_id": "49561084",
+        "date": "2025-08-01 14:55:52",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 2,
+                "total_price": 120
+            }
+        ],
+        "subtotal": 180,
+        "tax": 9.0,
+        "discount": 0,
+        "total_amount": 189.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "0d5b0ea7",
+        "order_id": "b254a0e7",
+        "date": "2025-08-01 14:59:11",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "0db0cc54",
+        "order_id": "35d3b8d7",
+        "date": "2025-08-01 15:07:08",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 240,
+        "tax": 12.0,
+        "discount": 0,
+        "total_amount": 252.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "a26eea86",
+        "order_id": "3e7afcda",
+        "date": "2025-08-01 15:18:11",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 180,
+        "tax": 9.0,
+        "discount": 0,
+        "total_amount": 189.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "cd7095c6",
+        "order_id": "eb267e3c",
+        "date": "2025-08-01 15:19:25",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "100f6a38",
+        "order_id": "747130f6",
+        "date": "2025-08-01 15:22:04",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "f16d0f58",
+        "order_id": "4e1182e5",
+        "date": "2025-08-01 15:32:04",
+        "items": [
+            {
+                "name": "Pancake",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 1,
+                "total_price": 70
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 250,
+        "tax": 12.5,
+        "discount": 0,
+        "total_amount": 262.5,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "8e8683d3",
+        "order_id": "beb10cf3",
+        "date": "2025-08-01 15:38:21",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 120,
+        "tax": 6.0,
+        "discount": 0,
+        "total_amount": 126.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "6c4d4b3f",
+        "order_id": "3b86deda",
+        "date": "2025-08-01 16:03:39",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
     }
 ]

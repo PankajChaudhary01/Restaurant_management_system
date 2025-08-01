@@ -4,7 +4,7 @@ import os
 import uuid
 import datetime
 from src.Domain.Bill.Billing import Bills
-
+from src.Domain.Booking.Table import TableBooking
 class OrderSystem:
     def __init__(self):
         self.order_file = r"D:\Restaurant_management_system\src\Database\Order.json"
@@ -113,7 +113,9 @@ class OrderSystem:
         order_type = input("Enter choice (1 or 2): ").strip()
 
         if order_type == "2":
-            print("Booking table ....")
+            # print("Booking table ....")
+            tabBook=TableBooking()
+            tabBook.book_table()
         elif order_type != "1":
             print("Invalid choice. Cancelling billing.")
             return
@@ -158,7 +160,7 @@ class OrderSystem:
 
         if payment_success:
             self.append_to_file(self.order_file, final_order)
-            print("Order saved to Order.json")
+            print("Thank you for your order! Have a great day!")
             self.order.clear()
             self.save_orders()
         else:
