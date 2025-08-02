@@ -1,0 +1,38 @@
+2025-08-02 09:54:24,681 - WARNING - Invalid menu choice entered
+2025-08-02 09:54:35,177 - INFO - Viewed full menu
+2025-08-02 09:54:41,681 - WARNING - Invalid menu choice entered
+2025-08-02 09:54:59,387 - INFO - Viewed reports section
+[2025-08-02 09:57:08.245302] Viewed full menu
+[2025-08-02 09:57:10.786416] Invalid choice entered: 9sid
+[2025-08-02 09:57:58.027589] ERROR: Non-numeric input entered in MenuManagement.
+[2025-08-02 09:58:15.924272] Invalid choice entered: 6
+[2025-08-02 10:02:33.475834] User selected Sign In
+[2025-08-02 10:02:36.040080] Invalid Sign In menu choice entered: 5
+[2025-08-02 10:04:50.998862] User selected Sign Up
+[2025-08-02 10:05:01.465324] New staff registered: 1 (ID: 0b0461)
+[2025-08-02 10:06:33.053712] User selected Sign In
+[2025-08-02 10:06:48.098445] User selected Staff Login.
+[2025-08-02 10:06:51.320808] Staff login successful (username: pankaj)
+[2025-08-02 10:07:09.659287] Payment method chosen: Cash
+[2025-08-02 10:07:19.051129] Payment successful for Order ID: 2b31f5ce
+[2025-08-02 10:07:19.052487] Invoice displayed (ID: 0beded7b)
+[2025-08-02 10:07:19.061083] Invoice generated and saved (ID: 0beded7b)
+[2025-08-02 10:09:06.309982] User selected Sign Up
+[2025-08-02 10:09:15.499278] New staff registered: pankaj (ID: 3cdbd3)
+[2025-08-02 10:09:18.745415] User selected Sign In
+[2025-08-02 10:09:19.755972] User selected Staff Login.
+[2025-08-02 10:09:22.957983] Staff login successful (username: pankaj)
+[2025-08-02 10:09:39.043926] Table bookings saved successfully.
+[2025-08-02 10:09:39.044283] Table 1 booked successfully for 3 seats. Booking ID: 92de51
+[2025-08-02 10:09:40.218703] Payment method chosen: Cash
+[2025-08-02 10:09:41.754309] Payment successful for Order ID: 1bd4a230
+[2025-08-02 10:09:41.755802] Invoice displayed (ID: bf304f0f)
+[2025-08-02 10:09:41.765745] Invoice generated and saved (ID: bf304f0f)
+[2025-08-02 10:11:53.816616] User selected Sign In
+[2025-08-02 10:11:54.495917] User selected Staff Login.
+[2025-08-02 10:11:57.693153] Staff login successful (username: pankaj)
+[2025-08-02 10:12:06.479699] Invalid menu choice: 6
+[2025-08-02 10:12:54.455192] Invalid menu choice: python -u "d:\Restaurant_management_system\Main.py"
+[2025-08-02 10:13:07.126072] User selected Sign In
+[2025-08-02 10:13:09.544624] User selected Staff Login.
+[2025-08-02 10:13:15.227540] Failed staff login attempt (username: 5)

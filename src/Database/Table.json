@@ -12,5 +12,19 @@
         "time": "16:11",
         "table_no": 1,
         "seats_booked": 2
+    },
+    {
+        "booking_id": "c65b94",
+        "date": "2025-08-02",
+        "time": "09:49",
+        "table_no": 1,
+        "seats_booked": 2
+    },
+    {
+        "booking_id": "92de51",
+        "date": "2025-08-02",
+        "time": "10:09",
+        "table_no": 1,
+        "seats_booked": 3
     }
 ]

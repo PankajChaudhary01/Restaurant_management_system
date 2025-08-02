@@ -513,5 +513,84 @@
         "total_amount": 63.0,
         "payment_method": "Cash",
         "payment_details": {}
+    },
+    {
+        "invoice_id": "1db47288",
+        "order_id": "7dbb0f15",
+        "date": "2025-08-02 09:49:40",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 3,
+                "total_price": 180
+            },
+            {
+                "name": "Pancake",
+                "category": "Desserts",
+                "price": 70,
+                "quantity": 8,
+                "total_price": 560
+            }
+        ],
+        "subtotal": 800,
+        "tax": 40.0,
+        "discount": 0,
+        "total_amount": 840.0,
+        "payment_method": "Credit Card",
+        "payment_details": {
+            "card_name": "pankaj ji",
+            "card_number": "8298928",
+            "expiry_date": "78/92",
+            "cvv": "2882"
+        }
+    },
+    {
+        "invoice_id": "0beded7b",
+        "order_id": "2b31f5ce",
+        "date": "2025-08-02 10:07:07",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 12,
+                "total_price": 720
+            }
+        ],
+        "subtotal": 720,
+        "tax": 36.0,
+        "discount": 0,
+        "total_amount": 756.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "bf304f0f",
+        "order_id": "1bd4a230",
+        "date": "2025-08-02 10:09:39",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
     }
 ]
