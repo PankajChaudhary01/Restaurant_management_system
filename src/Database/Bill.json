@@ -592,5 +592,92 @@
         "total_amount": 63.0,
         "payment_method": "Cash",
         "payment_details": {}
+    },
+    {
+        "invoice_id": "c304f47e",
+        "order_id": "8e94eaa6",
+        "date": "2025-08-03 18:34:27",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "d41db0d4",
+        "order_id": "ca788512",
+        "date": "2025-08-03 18:37:24",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 2,
+                "total_price": 120
+            },
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 2,
+                "total_price": 120
+            }
+        ],
+        "subtotal": 240,
+        "tax": 12.0,
+        "discount": 0,
+        "total_amount": 252.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "558c2c12",
+        "order_id": "9fd0d0a2",
+        "date": "2025-08-03 18:54:38",
+        "items": [
+            {
+                "name": "Cookies",
+                "category": "Desserts",
+                "price": 60,
+                "quantity": 1,
+                "total_price": 60
+            }
+        ],
+        "subtotal": 60,
+        "tax": 3.0,
+        "discount": 0,
+        "total_amount": 63.0,
+        "payment_method": "Cash",
+        "payment_details": {}
+    },
+    {
+        "invoice_id": "391a826f",
+        "order_id": "3590db07",
+        "date": "2025-08-03 18:56:49",
+        "items": [
+            {
+                "name": "Cheesecake",
+                "category": "Desserts",
+                "price": 130,
+                "quantity": 1,
+                "total_price": 130
+            }
+        ],
+        "subtotal": 130,
+        "tax": 6.5,
+        "discount": 0,
+        "total_amount": 136.5,
+        "payment_method": "Cash",
+        "payment_details": {}
     }
 ]

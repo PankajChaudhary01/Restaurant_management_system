@@ -1,4 +1,5 @@
 import json
+import os
 import uuid
 from datetime import datetime
 
@@ -299,7 +300,56 @@ def update_item():
         print("Error while updating item.")
         write_log(f"ERROR in update_item: {e}")
 
-def view_reports():
-    print("\n--- Report Section ---")
-    print("Reports will be added later (like sales or top items).")
     write_log("Viewed report section.")
+    
+
+def view_reports():
+    bill_file = r"D:\Restaurant_management_system\src\Database\Bill.json"
+    
+    if not os.path.exists(bill_file):
+        print("No sales data found (Bill.json missing).")
+        return
+
+    try:
+        with open(bill_file, "r") as file:
+            bills = json.load(file)
+    except (json.JSONDecodeError, FileNotFoundError):
+        print("Error reading sales data.")
+        return
+
+    if not bills:
+        print("No sales records available.")
+        return
+
+    today = datetime.now().date()
+    todays_bills = [
+        bill for bill in bills 
+        if bill.get("date") and datetime.strptime(bill["date"], "%Y-%m-%d %H:%M:%S").date() == today
+    ]
+
+    if not todays_bills:
+        print("No sales recorded today.")
+        return
+
+    total_orders = len(todays_bills)
+    total_sales = sum(bill["total_amount"] for bill in todays_bills)
+
+    from collections import Counter
+    item_list = []
+    for bill in todays_bills:
+        for item in bill.get("items", []): 
+            item_list.append(item["name"])
+
+    if item_list:
+        most_common_item, qty = Counter(item_list).most_common(1)[0]
+    else:
+        most_common_item, qty = None, 0
+
+    print("\n--- Daily Sales Report ---")
+    print(f"Date: {today}")
+    print(f"Total Orders Today: {total_orders}")
+    print(f"Total Sales Amount Today: ₹{total_sales:.2f}")
+    if most_common_item:
+        print(f"Top Selling Item: {most_common_item} (Sold {qty} times)")
+    else:
+        print("Top Selling Item: No items sold today.")
