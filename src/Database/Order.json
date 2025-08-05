@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "name": "Pancake",
+        "category": "Desserts",
+        "price": 70,
+        "quantity": 2,
+        "total_price": 140
+    }
+]

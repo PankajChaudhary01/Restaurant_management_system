@@ -92,5 +92,11 @@
         "username": "pankaj",
         "email": "pankaj",
         "password": "1232434"
+    },
+    {
+        "id": "2eb65d",
+        "username": "alok",
+        "email": "alok@gmail.com",
+        "password": "12345"
     }
 ]

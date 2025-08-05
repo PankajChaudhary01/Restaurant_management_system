@@ -47,3 +47,100 @@
 [2025-08-03 18:56:53.159041] Order appended to D:\Restaurant_management_system\src\Database\Order.json.
 [2025-08-03 18:56:53.159922] Order finalized successfully. Order ID: 3590db07
 [2025-08-03 18:56:53.161053] Orders saved successfully.
+[2025-08-04 09:28:05.305662] User selected Sign In
+[2025-08-04 09:28:06.626340] User selected Staff Login.
+[2025-08-04 09:28:11.728098] Staff login successful (username: pankaj)
+[2025-08-04 09:28:14.710369] Menu displayed successfully.
+[2025-08-04 09:28:14.710856] Staff viewed full menu.
+[2025-08-04 09:28:28.743621] Orders saved successfully.
+[2025-08-04 09:28:28.744333] Item added: Oreo Shake x3
+[2025-08-04 09:28:38.219268] Table bookings saved successfully.
+[2025-08-04 09:28:38.219780] Table 1 booked successfully for 2 seats. Booking ID: c8d9e7
+[2025-08-04 09:28:38.220188] Table booking initiated during order finalization.
+[2025-08-04 09:28:43.540866] Payment method chosen: Cash
+[2025-08-04 09:28:46.108481] Payment successful for Order ID: 04ec1d29
+[2025-08-04 09:28:46.111244] Invoice displayed (ID: 10800140)
+[2025-08-04 09:28:46.130159] Invoice generated and saved (ID: 10800140)
+[2025-08-04 09:28:46.144053] Order appended to D:\Restaurant_management_system\src\Database\Order.json.
+[2025-08-04 09:28:46.144978] Order finalized successfully. Order ID: 04ec1d29
+[2025-08-04 09:28:46.145712] Orders saved successfully.
+[2025-08-04 09:28:55.761690] Exited order menu.
+[2025-08-04 09:28:55.762104] Staff initiated order processing.
+[2025-08-04 09:28:58.046283] Staff exited menu.
+[2025-08-04 09:28:58.803723] User selected Admin Login.
+[2025-08-04 09:29:04.567423] Admin login successful (username: admin)
+[2025-08-04 09:29:07.433577] Viewed reports section
+[2025-08-05 16:48:36.758827] User selected Sign In
+[2025-08-05 16:48:38.783781] User selected Staff Login.
+[2025-08-05 16:49:00.751816] User selected Sign In
+[2025-08-05 16:49:01.597085] User selected Admin Login.
+[2025-08-05 16:49:06.049892] Admin login successful (username: admin)
+[2025-08-05 16:50:23.571012] User selected Sign In
+[2025-08-05 16:50:25.433336] User selected Admin Login.
+[2025-08-05 16:50:32.731456] Admin login successful (username: admin)
+[2025-08-05 16:50:35.126417] Viewed reports section
+[2025-08-05 16:55:21.287495] User selected Sign In
+[2025-08-05 16:55:22.120889] User selected Staff Login.
+[2025-08-05 16:55:24.980151] Staff login successful (username: pankaj)
+[2025-08-05 16:55:31.688815] Orders saved successfully.
+[2025-08-05 16:55:31.689947] Item added: Pancake x1
+[2025-08-05 16:55:47.823152] Table bookings saved successfully.
+[2025-08-05 16:55:47.824432] Table 1 booked successfully for 3 seats. Booking ID: ce6417
+[2025-08-05 16:55:47.825049] Table booking initiated during order finalization.
+[2025-08-05 16:57:13.672392] Payment method chosen: Cash
+[2025-08-05 16:57:15.726482] Payment successful for Order ID: d56fac35
+[2025-08-05 16:57:15.729949] Invoice displayed (ID: ab4a3171)
+[2025-08-05 16:57:15.745021] Invoice generated and saved (ID: ab4a3171)
+[2025-08-05 16:57:15.762455] Order appended to D:\Restaurant_management_system\src\Database\Order.json.
+[2025-08-05 16:57:15.763511] Order finalized successfully. Order ID: d56fac35
+[2025-08-05 16:57:15.764534] Orders saved successfully.
+[2025-08-05 16:57:27.723726] Finalize attempted on empty order.
+[2025-08-05 16:57:33.751949] Attempted to add unavailable item: cookies\
+[2025-08-05 16:57:44.185447] Orders saved successfully.
+[2025-08-05 16:57:44.186178] Item added: Cookies x2
+[2025-08-05 16:58:15.514906] Table bookings saved successfully.
+[2025-08-05 16:58:15.515611] Table 1 booked successfully for 3 seats. Booking ID: 836ea7
+[2025-08-05 16:58:15.516012] Table booking initiated during order finalization.
+[2025-08-05 16:58:18.017903] Payment method chosen: Cash
+[2025-08-05 16:58:19.610978] Payment successful for Order ID: e8c11f89
+[2025-08-05 16:58:19.615225] Invoice displayed (ID: 05336728)
+[2025-08-05 16:58:19.647630] Invoice generated and saved (ID: 05336728)
+[2025-08-05 16:58:19.661170] Order appended to D:\Restaurant_management_system\src\Database\Order.json.
+[2025-08-05 16:58:19.662289] Order finalized successfully. Order ID: e8c11f89
+[2025-08-05 16:58:19.663436] Orders saved successfully.
+[2025-08-05 17:08:36.763211] User selected Sign Up
+[2025-08-05 17:08:51.996899] New staff registered: alok (ID: 2eb65d)
+[2025-08-05 17:09:02.867202] User selected Sign In
+[2025-08-05 17:09:10.705986] User selected Staff Login.
+[2025-08-05 17:09:18.027750] Staff login successful (username: alok)
+[2025-08-05 17:09:32.817308] Menu displayed successfully.
+[2025-08-05 17:09:32.817982] Staff viewed full menu.
+[2025-08-05 17:10:00.228222] Orders saved successfully.
+[2025-08-05 17:10:00.228983] Item added: Iced Tea x1
+[2025-08-05 17:10:11.437913] Orders saved successfully.
+[2025-08-05 17:10:11.438715] Item added: Cookies x2
+[2025-08-05 17:10:14.701679] Invalid menu choice: 
+[2025-08-05 17:11:23.613160] Payment method chosen: Cash
+[2025-08-05 17:11:28.682124] Payment successful for Order ID: b4553600
+[2025-08-05 17:11:28.687155] Invoice displayed (ID: ceefaa8b)
+[2025-08-05 17:11:28.716999] Invoice generated and saved (ID: ceefaa8b)
+[2025-08-05 17:11:28.737104] Order appended to D:\Restaurant_management_system\src\Database\Order.json.
+[2025-08-05 17:11:28.738957] Order finalized successfully. Order ID: b4553600
+[2025-08-05 17:11:28.740512] Orders saved successfully.
+[2025-08-05 17:12:38.943812] Orders saved successfully.
+[2025-08-05 17:12:38.944579] Item added: Cookies x2
+[2025-08-05 17:13:25.443235] Table bookings saved successfully.
+[2025-08-05 17:13:25.444120] Table 1 booked successfully for 4 seats. Booking ID: 929d4f
+[2025-08-05 17:13:25.444625] Table booking initiated during order finalization.
+[2025-08-05 17:13:31.120554] Payment method chosen: Cash
+[2025-08-05 17:13:33.356142] Payment successful for Order ID: 282487e9
+[2025-08-05 17:13:33.359946] Invoice displayed (ID: e2cbaeb1)
+[2025-08-05 17:13:33.385236] Invoice generated and saved (ID: e2cbaeb1)
+[2025-08-05 17:13:33.388489] Order appended to D:\Restaurant_management_system\src\Database\Order.json.
+[2025-08-05 17:13:33.389739] Order finalized successfully. Order ID: 282487e9
+[2025-08-05 17:13:33.390907] Orders saved successfully.
+[2025-08-05 17:13:50.152507] Orders saved successfully.
+[2025-08-05 17:13:50.153216] Item added: Pancake x2
+[2025-08-05 17:14:14.252583] Table bookings saved successfully.
+[2025-08-05 17:14:14.253345] Table 1 booked successfully for 4 seats. Booking ID: d8ed46
+[2025-08-05 17:14:14.253821] Table booking initiated during order finalization.
